@@ -22,6 +22,155 @@
     <title>Weather Finder</title>
   </head>
   <body>
-    This is my weather project
+    <div class="container">
+      <div class="card maincard" style="width: 50rem">
+        <div class="card-body">
+          <!--  input DOWN -->
+
+          <form class="input-city">
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-8">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter a city"
+                  />
+                </div>
+              </div>
+              <div class="col-3">
+                <!--<button type="submit" class="btn btn-primary">Enter</button>  -->
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary button-color"
+                >
+                  Enter
+                </button>
+              </div>
+            </div>
+          </form>
+          <!--  current city down -->
+
+          <form class="current-weather-card">
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-4">
+                <div class="current-city-weather">
+                  Current Weather in <br />
+                  <strong>New York</strong>
+                </div>
+              </div>
+              <div class="col-7"></div>
+            </div>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-4">
+                <img
+                  src="images/mostly_sunny.png"
+                  alt="mostly sunny"
+                  class="current-weather-image"
+                />
+              </div>
+              <div class="col-2">
+                <h5 class="current-temp">76°F</h5>
+              </div>
+              <div class="col-4">
+                <h6 class="current-weather-text">
+                  <strong>Mostly Sunny</strong><br />Humidity 71%<br />Wind 8
+                  mph
+                </h6>
+              </div>
+              <div class="col-1"></div>
+            </div>
+          </form>
+
+          <!-- WEEK DAYS DOWN -->
+          <form>
+            <div class="five-day">
+              <div class="row">
+                <div class="col-1"></div>
+                <div class="col-2">
+                  <div class="card" style="width: 7rem">
+                    <div class="card-body">
+                      <div class="five-day-day">SAT</div>
+                      <div class="five-day-high">76°F</div>
+                      <div class="five-day-low">/68°F</div>
+                      <img
+                        src="images/mostly_sunny.png"
+                        alt="mostly sunny"
+                        class="five-day-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-2">
+                  <div class="card" style="width: 7rem">
+                    <div class="card-body">
+                      <div class="five-day-day">SUN</div>
+                      <div class="five-day-high">76°F</div>
+                      <div class="five-day-low">/68°F</div>
+                      <img
+                        src="images/mostly_sunny.png"
+                        alt="mostly sunny"
+                        class="five-day-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-2">
+                  <div class="card" style="width: 7rem">
+                    <div class="card-body">
+                      <div class="five-day-day">MON</div>
+                      <div class="five-day-high">76°F</div>
+                      <div class="five-day-low">/68°F</div>
+                      <img
+                        src="images/cloudy.png"
+                        alt="cloudy"
+                        class="five-day-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-2">
+                  <div class="card" style="width: 7rem">
+                    <div class="card-body">
+                      <div class="five-day-day">TUE</div>
+                      <div class="five-day-high">76°F</div>
+                      <div class="five-day-low">/68°F</div>
+                      <img
+                        src="images/cloudy.png"
+                        alt="cloudy"
+                        class="five-day-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-2">
+                  <div class="card" style="width: 7rem">
+                    <div class="card-body">
+                      <div class="five-day-day">WED</div>
+                      <div class="five-day-high">76°F</div>
+                      <div class="five-day-low">/68°F</div>
+                      <img
+                        src="images/sun.png"
+                        alt="sunny"
+                        class="five-day-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1"></div>
+              </div>
+            </div>
+            <!--       <div>WEATHER APP CREATED BY KERRY GUARINO</div> -->
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
