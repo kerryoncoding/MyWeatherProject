@@ -1,14 +1,10 @@
 body {
     padding-top: 40px;
-    font-family: 'Roboto Slab', serif;
+    font-family: "Roboto Slab", serif;
 }
 
 .button-color {
     background-color: #ffffff;
-}
-
-.input-city {
-    //background-color: #ffffff;
 }
 
 .maincard {
@@ -25,14 +21,6 @@ body {
     padding-bottom: 30px;
 }
 
-//.current-weather-card{
-background-color: #ffffff;
-display: block;
-margin: 0 auto;
-max-width: 620px;
-padding: 0;
-}
-
 .current-city-weather {
     font-size: 25px;
     text-align: center;
@@ -44,9 +32,6 @@ padding: 0;
     width: 125px;
     padding-top: 15px;
     padding-bottom: 20px;
-    //border: 1px solid grey;
-    //border-radius: 5px;
-    //background-color: #ffffff;
 }
 
 .current-temp {
@@ -59,7 +44,6 @@ padding: 0;
     font-size: 20px;
     text-align: center;
     padding-top: 35px;
-
 }
 
 .five-day-day {
@@ -90,4 +74,3 @@ padding: 0;
     padding-top: 15px;
     padding-bottom: 5px;
 }
-
